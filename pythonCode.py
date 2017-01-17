@@ -1,7 +1,7 @@
 import wave
 import time
 import socket
-ip = '192.168.43.184'
+ip = '192.168.43.184'#ip of connected Arduino
 waveFile = wave.open('bird.wav', 'r')
 t = 1./waveFile.getframerate()
 length = waveFile.getnframes()
