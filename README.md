@@ -1,2 +1,5 @@
 # Speaker-made-wireless
-Make a speaker wireless! Burn speakerattachment.ino on to NodeMCU and edit python code to reflect your Node-MCU ip and sound file location. 
+Make a speaker wireless! 
+# Instructions
+1) Burn speakerattachment.ino on to NodeMCU
+2) Edit python code to reflect your Node-MCU ip, Sound file location, WiFi SSID and WiFi password. 
