@@ -7,9 +7,14 @@
  *  printed to Serial when the module is connected.
  */
 
+/*
+ *Modified ESP8266 sample library code to "listen" to music through 
+ *external python code over a wifi network.
+ */
+
 #include <ESP8266WiFi.h>
 
-const char* ssid = "Akshay";
+const char* ssid = "Your_SSID_Here";
 const char* password = "12345678";
 unsigned long after,before;
 // Create an instance of the server
